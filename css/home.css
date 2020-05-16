@@ -1,0 +1,32 @@
+body {
+    background: rebeccapurple;
+    margin: 15;
+    margin-top: 50px;
+}
+
+.login-form,
+.login-form * {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login-form {
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    background: sandybrown;
+    text-align: center;
+}
+
+.login-form > .row {
+    padding-top: 10px;
+}
+
+input {
+    border-style: dotted;
+    border-radius: 15%;
+    border-color: darkgray;
+}
